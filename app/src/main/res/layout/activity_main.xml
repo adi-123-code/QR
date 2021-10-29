@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="300px"
+        android:background="@android:drawable/edit_text"
+        android:scrollbarStyle="outsideOverlay">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:hint="\n请输入文本或网址\n"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:textColorHint="#ffcccccc" />
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+
+        <Button
+            android:id="@+id/bt_generate_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/switch_style"
+            android:text=" 生成条形码 "
+            android:textColor="#2D328E"
+            app:layout_constraintBottom_toBottomOf="@+id/bt_generate"
+            app:layout_constraintEnd_toStartOf="@+id/bt_generate"
+            app:layout_constraintHorizontal_bias="0.201"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bt_generate" />
+
+        <Button
+            android:id="@+id/bt_generate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/switch_style"
+            android:text=" 生成二维码 "
+            android:textColor="#2D328E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/iv_output"
+        android:layout_width="405dp"
+        android:layout_height="405dp"
+        android:src="@drawable/njupt"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/bt_scan"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/img_switch" />
+
+
+</LinearLayout>
