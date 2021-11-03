@@ -11,4 +11,4 @@
 ## 2.安装和使用
 >JDK1.8版本,在Android Studio最新版本打开该项目即可
 ## 3.功能特性
-![Alt text]( "optional title")
+![](1.png)
