@@ -11,4 +11,5 @@
 ## 2.安装和使用
 >JDK1.8版本,在Android Studio最新版本打开该项目即可
 ## 3.功能特性
-![](1.png)
+<img src="1.png" height="300px"><img src="2.png" height="300px">
+
