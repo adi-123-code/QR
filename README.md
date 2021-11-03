@@ -11,5 +11,13 @@
 ## 2.安装和使用
 >JDK1.8版本,在Android Studio最新版本打开该项目即可
 ## 3.功能特性
-<img src="1.png" height="300px"><img src="2.png" height="300px">
+<img src="1.png" height="280px"><img src="2.png" height="280px"><img src="6.png" height="280px"><img src="7.png" height="280px"><img src="3.png" height="280px"><img src="4.png" height="280px"><img src="5.png" height="280px">
+## 4.可考虑增加功能
+>* 与支付宝或微信支付建立链接，实现付款功能；
+>* 增加可扫描图库中图片的功能
+>* 优化相机聚焦能力，改善用户体验
+## License
+[NJUPT](LICENSE) © Xiao ADi
+## Contact
+QQ @1712318665@qq.com
 
